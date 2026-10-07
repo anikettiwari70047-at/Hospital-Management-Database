@@ -1,73 +1,77 @@
-# Hospital Management Database
+# 🏥 Hospital Management Database
 
-## Project Overview
+> **A MySQL-based database project for managing and analyzing hospital information using SQL**
 
-This project is a Hospital Management Database created using MySQL and SQL.
+---
 
-The main purpose of this project is to store and manage hospital-related information such as patients, physicians, departments, appointments, medicines, procedures and hospital stays.
+## 📌 Project Overview
 
-## Objectives
+The **Hospital Management Database** is a database project developed using **MySQL and SQL**.
 
-- To understand database management using MySQL.
-- To store hospital information in different tables.
-- To perform SQL queries on hospital data.
-- To retrieve useful information using SQL.
-- To practice JOIN, GROUP BY and aggregate functions.
-- To use SQL queries for hospital data analysis.
+The project is designed to store, organize, and manage important hospital-related information such as **patients, physicians, departments, appointments, medicines, procedures, nurses, rooms, and hospital stays**.
 
-## Technologies Used
+SQL queries are used to retrieve meaningful information and perform analysis on the hospital database.
 
-- MySQL
-- MySQL Workbench
-- SQL
-- CSV Dataset
+---
 
-## Dataset
+## 🎯 Objectives
 
-The project uses hospital-related CSV datasets including:
+The main objectives of this project are:
 
-- Patient
-- Physician
-- Department
-- Appointment
-- Medication
-- Nurse
-- Procedure
-- Room
-- Stay
-- Prescribes
-- Undergoes
-- Affiliated With
-- On Call
-- Trained In
+- 🗄️ Understand database management using MySQL
+- 🏥 Store hospital information in structured tables
+- 🔎 Retrieve useful information using SQL queries
+- 🔗 Practice SQL JOIN operations
+- 📊 Perform data analysis using GROUP BY and aggregate functions
+- 🧮 Use SQL queries for hospital data analysis
+- 📈 Practice advanced SQL concepts such as subqueries, views, and ranking
 
-## SQL Concepts Used
+---
 
-- SELECT
-- WHERE
-- JOIN
-- GROUP BY
-- ORDER BY
-- Aggregate Functions
-- Subqueries
-- Views
-- Ranking
+## 🛠️ Technologies Used
 
-## Project Output
+| Technology | Purpose |
+|---|---|
+| 🐬 **MySQL** | Database management |
+| 🖥️ **MySQL Workbench** | Database development and SQL execution |
+| 📜 **SQL** | Data querying and analysis |
+| 📄 **CSV** | Hospital dataset |
 
-The project includes SQL query results and screenshots showing the working of the hospital database.
+---
 
-## Team
+## 📂 Dataset
 
-This project was completed by a team of three students during the internship.
+The project contains multiple hospital-related datasets representing different entities of the hospital management system.
 
-## Internship
+### Dataset Tables
 
-**Company:** Imarticus Learning, Thane
+- 👤 Patient
+- 👨‍⚕️ Physician
+- 🏢 Department
+- 📅 Appointment
+- 💊 Medication
+- 👩‍⚕️ Nurse
+- 🩺 Procedure
+- 🛏️ Room
+- 🏥 Stay
+- 💊 Prescribes
+- 🏢 Affiliated With
+- 📞 On Call
+- 🎓 Trained In
 
-## Repository Contents
+---
 
-- Hospital dataset CSV files
-- SQL database file
-- Project screenshots
-- README documentation
+## 🔍 SQL Concepts Used
+
+The project demonstrates several important SQL concepts:
+
+```text
+SELECT
+WHERE
+JOIN
+GROUP BY
+ORDER BY
+Aggregate Functions
+Subqueries
+Views
+Ranking
